@@ -2,3 +2,4 @@ pan
 frutas 
 verduras
 galletitas
+harina
