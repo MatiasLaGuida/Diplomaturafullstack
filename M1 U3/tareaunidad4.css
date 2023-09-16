@@ -1,0 +1,60 @@
+h1 {
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    text-decoration: underline;
+    background-color: #dfc308;
+    box-shadow: 5px 5px 10px rgba(255, 0, 0, 0.2);
+
+}
+
+/* probando comentarios */
+h2 {
+    color: green;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+ul {
+    color: rgb(255, 0, 136);
+}
+
+ol {
+    color: blue;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blueviolet;
+}
+
+h4 {
+    color: blueviolet;
+}
+
+.destacado {
+    color: red;
+}
+
+#azul {
+    width: 250px;
+    height: 250px;
+    background-color: blanchedalmond;
+    border: 2px dotted blue;
+    padding: 23px;
+    box-sizing: border-box;
+    margin-left: 500px;
+}
+#azul p{
+        color: #dfc308;
+    }
+
+
+#rojo {
+    color: blueviolet;
+}
+
+#negrita {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #dfc308;
+}
