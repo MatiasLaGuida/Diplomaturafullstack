@@ -1,10 +1,13 @@
+/*font-family: 'Skranji', cursive;*/
+
 h1 {
     color: red;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     text-decoration: underline;
-    background-color: #dfc308;
+    background-color: #060606;
     box-shadow: 5px 5px 10px rgba(255, 0, 0, 0.2);
+    border-radius: 50px 25px;
 
 }
 
@@ -12,10 +15,12 @@ h1 {
 h2 {
     color: green;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Skranji', cursive;
 }
 
 ul {
     color: rgb(255, 0, 136);
+
 }
 
 ol {
@@ -43,10 +48,18 @@ h4 {
     padding: 23px;
     box-sizing: border-box;
     margin-left: 500px;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+
 }
-#azul p{
-        color: #dfc308;
-    }
+
+#azul p {
+    color: #030302;
+    column-count: 2;
+    margin: 0px;
+    column-gap: 30px;
+    column-rule: 2px solid black;
+
+}
 
 
 #rojo {
