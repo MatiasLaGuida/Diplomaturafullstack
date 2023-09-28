@@ -1,0 +1,139 @@
+/*ejercicio 1*/
+.contenedor {
+    position: relative;
+    left: 400px;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 500px;
+    border: 2px solid black
+}
+
+.caja {
+    position: absolute;
+    left: 330px;
+    /*display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;*/
+}
+
+#caja1 {
+    background-color: red;
+    width: 170px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+
+}
+
+#caja2 {
+    background-color: blue;
+    width: 170px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+#caja3 {
+    background-color: green;
+    width: 170px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+/*ejercicio 2*/
+.contenedor2 {
+    margin-top: 50px;
+    position: relative;
+    left: 400px;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 500px;
+    border: 2px solid black
+}
+
+.contenedores {
+    margin-top: 175px;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+#c1 {
+    background-color: red;
+    width: 170px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+
+}
+
+#c2 {
+    background-color: blue;
+    width: 170px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+#c3 {
+    background-color: green;
+    width: 160px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+/*ejercicio 3*/
+.contenedor3 {
+    margin-top: 50px;
+    display: inline-flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    width: 1250px;
+    height: 200px;
+    border: 2px solid black
+}
+
+#cj1 {
+    background-color: red;
+    width: 170px;
+    height: 200px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+
+}
+
+#cj2 {
+    background-color: blue;
+    width: 170px;
+    height: 200px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+#cj3 {
+    background-color: green;
+    width: 160px;
+    height: 200px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
