@@ -6,14 +6,17 @@
     width: 500px;
     height: 500px;
     border: 2px solid black
+    
 }
 
 .caja {
-    position: absolute;
-    left: 330px;
-    /*display: inline-flex;
+    /*position: absolute;
+    left: 330px;*/
+    display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;*/
+    align-items: flex-end;
+    
+    
 }
 
 #caja1 {
@@ -62,7 +65,7 @@
     margin-top: 175px;
     display: inline-flex;
     flex-direction: row-reverse;
-    justify-content: center;
+    
 }
 
 #c1 {
