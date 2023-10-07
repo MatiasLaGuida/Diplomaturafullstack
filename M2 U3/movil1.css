@@ -1,7 +1,13 @@
+
+#contenedor {
+    width: 100%;
+}
+
 body {
     position: relative;
     right: 10px;
     top: -10px;
+    width: 100%;
 }
 
 h1 {
@@ -10,8 +16,7 @@ h1 {
 
 nav {
     background: #fc6;
-    width: 800px;
-    height: 100px;
+    width: 100%;
 }
 
 a {
@@ -23,12 +28,12 @@ ul li {
 }
 
 section {
-    width: 800px;
-    height: 150px;
+    width: 100%;
     position: relative;
-    right: 27px;
-    border: 3px solid;
+    right: 25px;
+    border: 1px solid;
     padding: 5px;
+    box-sizing: border-box;
 }
 
 section p {
@@ -41,19 +46,16 @@ section h2 {
 }
 
 aside {
-    width: 800px;
-    height: 150px;
+    width: 100%;
     border: 1px solid;
-
-
 }
 
 aside p {
     padding-left: 20px;
     font-size: 18px;
+    margin-right: 20px;
 }
 
 aside h2 {
     padding-left: 20px;
-
 }
