@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejericio 2</title>
+</head>
+<body>
+    <p>
+        Numeros:"13", "26", "39", "14", "55", "6", "17", "9", "3", "10"
+    </p>
+
+    <script>
+
+        const numeros = ["13", "26", "39", "14", "55", "6", "17", "9", "3", "10"];
+        //document.write ('Numeros:' + numeros);
+        let mayor = parseInt(numeros);
+
+        for (let i = 0; i < numeros.length; i++) {
+            //console.log('tenemos ' + numeros[i])
+            const numero = parseInt(numeros[i]);
+            if (numero > mayor) {
+                mayor = numero;
+            }
+        }
+
+        document.write("El número mayor es: " + mayor);
+
+    </script>
+</body>
+</html>
