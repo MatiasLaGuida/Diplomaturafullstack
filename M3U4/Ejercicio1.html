@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ejercicio 1</title>
+
+    <style>
+        .cuadrado {
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            margin: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .cuadrado:hover {
+            transform: scale(1.2);
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="cuadrado" style="background-color: rgb(189, 119, 7);" onclick="cambiarColor('orange')"></div>
+    <div class="cuadrado" style="background-color: rgb(151, 6, 120);" onclick="cambiarColor('violet')"></div>
+    <div class="cuadrado" style="background-color: rgba(190, 190, 8, 0.852);" onclick="cambiarColor('yellow')"></div>
+
+    <script>
+        function cambiarColor(color) {
+            document.body.style.backgroundColor = color;
+        }
+    </script>
+</body>
+
+</html>
