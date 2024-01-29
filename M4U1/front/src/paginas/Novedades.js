@@ -18,6 +18,8 @@ setNovedades (response.data);
 setLoading(false);
  };
 
+
+ 
 cargarNovedades();
  }, []);
 
