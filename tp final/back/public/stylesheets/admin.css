@@ -1,0 +1,60 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+.holder {
+    max-width: 960px;
+  
+}
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+header {
+    background: linear-gradient(to right, #ffcc00, #ff6600);
+    padding: 5px 0;
+    box-shadow: 1px 8px 8px rgba(255, 128, 2, 0.3);
+    height: 120x;
+}
+
+
+header h1 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 100;
+    font-style: italic;
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+
+
+footer {
+    background-color: #d1cfce;
+    box-shadow: 1px -5px 8px rgba(255, 128, 2, 0.3);
+    clear: both;
+    color: #fdfcfc;
+    text-align: center;
+    padding: 8px 0;
+    margin-top: 130px;
+
+
+}
+
+
+
+

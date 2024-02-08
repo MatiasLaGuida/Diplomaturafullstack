@@ -1,0 +1,22 @@
+.nosotros p {
+    font-size: 12px;
+    
+}
+
+.nosotros h2{
+    margin-top: 50px ;
+}
+
+
+.salon{
+   
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.img{
+    width: 70%;
+}
+
