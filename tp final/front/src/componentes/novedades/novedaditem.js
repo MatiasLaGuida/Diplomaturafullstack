@@ -11,7 +11,7 @@ const NovedadItem = (props) => {
             <h2>{subtitle}</h2>
             <img src={imagen}/>
             <div dangerouslySetInnerHTML={{ __html: body }}/>
-            <hr />
+            <hr/>
         </div>
     ); 
 }

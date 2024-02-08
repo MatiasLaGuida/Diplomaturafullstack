@@ -14,6 +14,7 @@ const Contacto = (props) => {
         mensaje: ''
     }
 
+    
     const [sending, setSending] = useState(false);
     const [msg, setMsg] = useState('');
     const [formData, setFormData] = useState(initialForm);
