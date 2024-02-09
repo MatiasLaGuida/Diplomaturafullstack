@@ -19,7 +19,7 @@ router.post('/contacto', async (req, res) => {
     const mail = {
         to: 'matias.laguida@gmail.com',
         subject: 'Contacto web',
-        html: ` ${req.body.nombre} se contacto a traves de la web y quiere más informacion a este correo:
+        html: `${req.body.nombre} se contacto a traves de la web y quiere más informacion a este correo:
      ${req.body.email} <br> Además, hizo el siguiente comentario: ${req.body.mensaje} <br> Su tel es:
         ${req.body.telefono}`
     }

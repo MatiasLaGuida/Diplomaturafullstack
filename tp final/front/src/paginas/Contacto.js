@@ -22,7 +22,7 @@ const Contacto = (props) => {
     const handleChange = e => {
         const { name, value } = e.target;
         setFormData(oldData => ({
-            oldData,
+            ...oldData,
             [name]: value
         }));
     }
@@ -64,7 +64,7 @@ const handleSubmit = async e => {
                         <input type="text" name="telefono" value={formData.telefono} onChange={handleChange} />
                     </p>
                     <p>
-                        <label for="mensaje"> Mensaje</label>
+                        <label for="mensaje"> Mensaje </label>
                         <textarea name="mensaje" value={formData.mensaje} onChange={handleChange} ></textarea>
                     </p>
                     <p class="acciones"><input type="submit"
